@@ -2,7 +2,7 @@
 //importing required pacckage and class from java.util package
 import java.util.regex.*;
 import java.util.Scanner;
-public class Main{
+public class Regex{
     public static void regexMatcher(String reg, String pass){
         Pattern pattern = Pattern.compile(reg);
         Matcher matcher = pattern.matcher(pass);
